@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: center;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.header-container{
+    width: 80%;
+    display: flex;
+}
+.header-title{
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    padding:15px 0px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.logo-title-container{
+    display: flex;
+    width: 50%;
+}
+.header-item-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-item{
+    font-size: 20px;
+    padding: 10px;
+}
